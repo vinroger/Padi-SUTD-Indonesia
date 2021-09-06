@@ -35,11 +35,11 @@ export default function Committee() {
         
             </div>
         </div>
-        <div className="flex flex-col space-y-10 md:space-y-0  md:flex-row flex-grow justify-evenly m-10 p-10">
+        <div className="flex flex-col space-y-10 md:space-y-0  md:flex-row flex-grow justify-evenly my-10 py-10">
             <People url="/img/moktar2.jpg" name="Edward Marco Moktar" description="President of PADI"></People>
             <People url="/img/ferry2.jpg" name="Ferry Chandra" description="Vice President of PADI"></People>
         </div>
-        <div className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row flex-grow justify-evenly m-10 p-10">
+        <div className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row flex-grow justify-evenly my-10 py-10">
             <People url="/img/erick2.jpg" name="Erick Chandra" description="Treasurer"></People>
             <People url="/img/jdl2.jpg" name="Jonathan Davinius Layardi" description="Secretary"></People>
             <People url="/img/nathan2.jpg" name="Nathan Chang" description="PR/IT Director"></People>
