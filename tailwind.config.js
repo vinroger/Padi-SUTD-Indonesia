@@ -22,23 +22,14 @@ module.exports = {
           "-o-transition": "all 1s ease",
           "background-size":"100%",
         },
-        ".bg-hero:hover" : {
-          "background-size" : "110%",
+        // "@media only screen and (max-width: 600px)" : {
+        //   ".mobileImg" : {"width" : "29rem !important", "height" : "22rem !important"},
 
-        },
-        ".bg-people:hover" : {
-          "background-size" : "120%",
+        // },
+        // "@media only screen and (max-width: 600px)" : {
+        //   ".mobileImgChild" : {"width" : "28rem !important", "height" : "21rem !important"},
 
-        },
-        ".bg-people":{
-          "background-image" : "url(/img/people2.jpg)",
-          "transition": "all 1s ease",
-          "-moz-transition": "all 1s ease",
-          "-ms-transition": "all 1s ease",
-          "-webkit-transition": "all 1s ease",
-          "-o-transition": "all 1s ease",
-          "background-size":"110%",
-        }
+        // }
 
 
       };

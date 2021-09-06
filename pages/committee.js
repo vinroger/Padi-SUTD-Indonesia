@@ -14,7 +14,7 @@ export default function Committee() {
             
         <Titleimg imgsrc="./img/people2.jpg"> 
             <h1 className= "font-bold text-4xl m-2" >The Committee</h1>
-            <h4 className="text-lg">“We are obviously strong. Don't ask.”</h4>
+            <h4 className="text-lg">To lead is to serve, nothing more and nothing less.</h4>
         </Titleimg>
 
     <div className="justify-center my-10 py-10">
