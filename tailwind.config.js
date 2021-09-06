@@ -13,8 +13,7 @@ module.exports = {
   plugins: [
     plugin(function({addUtilities}){
       const utilities = {
-        ".bg-hero" : {
-          "background-image" : "url(/img/event001.jpg)",
+        "#bg-hero" : {
           "transition": "all 1s ease",
           "-moz-transition": "all 1s ease",
           "-ms-transition": "all 1s ease",
@@ -22,14 +21,10 @@ module.exports = {
           "-o-transition": "all 1s ease",
           "background-size":"100%",
         },
-        // "@media only screen and (max-width: 600px)" : {
-        //   ".mobileImg" : {"width" : "29rem !important", "height" : "22rem !important"},
+        "#bg-hero:hover" : {
+          "background-size" : "110%",
 
-        // },
-        // "@media only screen and (max-width: 600px)" : {
-        //   ".mobileImgChild" : {"width" : "28rem !important", "height" : "21rem !important"},
-
-        // }
+        },
 
 
       };

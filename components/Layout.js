@@ -35,10 +35,10 @@ export default function Layout({children}) {
                     </div>
                 </div>
                 <div className="hidden md:flex ml-auto mr-10 pr-5 items-center space-x-10 text-white"> 
-                    <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Home</a></Link>
-                    <Link href="/events" ><a className="font-semi-bold text-xl hover:opacity-50">Events</a></Link>
-                    <Link href="/committee" ><a className="font-semi-bold text-xl hover:opacity-50">Committee</a></Link>
-                    <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Contact Us</a></Link>
+                    <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Home</a></Link>
+                    <Link href="/events" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Events</a></Link>
+                    <Link href="/committee" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Committee</a></Link>
+                    <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Contact Us</a></Link>
                 
                 </div>
                 
@@ -66,8 +66,12 @@ export default function Layout({children}) {
     <footer>
         <div className="w-full h-auto p-10" style={{"backgroundColor":"#5E1212"}}>
             <div className="flex flex-col items-center md:flex-row md:space-y-5 justify-around pl-10 pr-10">
-                <div className="relative w-48 h-36 flex">
-                    <Image src="/img/logo-large.png" layout="fill" objectFit="contain"></Image>
+                <div className="relative w-48 h-36 flex hover:opacity-50 hover:cursor-pointer">
+                    <Link href="/">
+                        <Image src="/img/logo-large.png" layout="fill" objectFit="contain"></Image>
+                    </Link>
+
+                    
                 </div>
                 <div className="text-white justify-evenly space-x-10 flex flex-grow max-w-lg">
                     <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Home</a></Link>

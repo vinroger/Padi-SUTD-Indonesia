@@ -7,12 +7,11 @@ function Titleimg({children, imgsrc}) {
     "-ms-transition": "all 1s ease",
     "-webkit-transition": "all 1s ease",
     "-o-transition": "all 1s ease",
-    "background-size":"100%"
     };
     return (
         <div>
             
-            <div className="bg-no-repeat bg-center bg-cover w-screen h-full" style={styling}>
+            <div id="bg-hero" className="bg-no-repeat bg-center bg-cover w-screen h-full" style={styling}>
             <div className= "bg-black bg-opacity-70 text-white" style={{"width" : "100vw", "height" : "45vw"}} >
                 <div className="flex flex-col text-center align-center justify-center w-full h-full">
                     {children}
