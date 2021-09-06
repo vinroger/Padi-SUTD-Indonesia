@@ -10,22 +10,13 @@ export default function Committee() {
     return (
     
     <Layout>
-    <div>
-            
-        <div className="bg-people bg-no-repeat bg-center bg-cover w-screen h-full">
-            <div className= "bg-black bg-opacity-70 text-white" style={{"width" : "100vw", "height" : "40vw"}} >
-                <div className="flex flex-col text-center align-center justify-center w-full h-full">
-                    <h1 className= "font-bold text-4xl m-2" >The Committee</h1>
-                    <h4 className="text-lg">“We are obviously strong. Don't ask.”</h4>
-                </div>
-                </div>
-            
-                
-        </div>
-        <div>
 
-        </div>
-    </div>
+            
+        <Titleimg imgsrc="./img/people2.jpg"> 
+            <h1 className= "font-bold text-4xl m-2" >The Committee</h1>
+            <h4 className="text-lg">“We are obviously strong. Don't ask.”</h4>
+        </Titleimg>
+
     <div className="justify-center my-10 py-10">
         <div className="m-10 p-10">
             <div className="flex flex-col items-center">

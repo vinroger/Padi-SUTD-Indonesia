@@ -36,7 +36,7 @@ export default function Layout({children}) {
                 </div>
                 <div className="hidden md:flex ml-auto mr-10 pr-5 items-center space-x-10 text-white"> 
                     <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Home</a></Link>
-                    <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Events</a></Link>
+                    <Link href="/events" ><a className="font-semi-bold text-xl hover:opacity-50">Events</a></Link>
                     <Link href="/committee" ><a className="font-semi-bold text-xl hover:opacity-50">Committee</a></Link>
                     <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Contact Us</a></Link>
                 
@@ -45,7 +45,7 @@ export default function Layout({children}) {
                 <div className={clicked? "" : "hidden"}>
                     <div className="md:hidden text-white pl-5 ml-5 space-y-5 mt-8"> 
                         <Link href="/" ><a className="font-semi-bold text-xl block hover:opacity-50">Home</a></Link>
-                        <Link href="/" ><a className="font-semi-bold text-xl block hover:opacity-50">Events</a></Link>
+                        <Link href="/events" ><a className="font-semi-bold text-xl block hover:opacity-50">Events</a></Link>
                         <Link href="/committee" ><a className="font-semi-bold text-xl block hover:opacity-50">Committee</a></Link>
                         <Link href="/" ><a className="font-semi-bold text-xl block hover:opacity-50">Contact Us</a></Link>
                     </div>
@@ -71,7 +71,7 @@ export default function Layout({children}) {
                 </div>
                 <div className="text-white justify-evenly space-x-10 flex flex-grow max-w-lg">
                     <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Home</a></Link>
-                    <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Events</a></Link>
+                    <Link href="/events" ><a className="font-semi-bold text-xl hover:opacity-50">Events</a></Link>
                     <Link href="/committee" ><a className="font-semi-bold text-xl hover:opacity-50">Committee</a></Link>
                     <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Contact Us</a></Link>
                 </div>
