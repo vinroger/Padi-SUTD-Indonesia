@@ -41,7 +41,7 @@ export default function Layout({ children }) {
                         <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Home</a></Link>
                         <Link href="/events" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Events</a></Link>
                         <Link href="/committee" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Committee</a></Link>
-                        <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Contact Us</a></Link>
+                        <Link href="/contactus" ><a className="font-semi-bold text-xl hover:opacity-50 hover:animate-bounce">Contact Us</a></Link>
 
                     </div>
 
@@ -50,7 +50,7 @@ export default function Layout({ children }) {
                             <Link href="/" ><a className="font-semi-bold text-xl block hover:opacity-50">Home</a></Link>
                             <Link href="/events" ><a className="font-semi-bold text-xl block hover:opacity-50">Events</a></Link>
                             <Link href="/committee" ><a className="font-semi-bold text-xl block hover:opacity-50">Committee</a></Link>
-                            <Link href="/" ><a className="font-semi-bold text-xl block hover:opacity-50">Contact Us</a></Link>
+                            <Link href="/contactus" ><a className="font-semi-bold text-xl block hover:opacity-50">Contact Us</a></Link>
                         </div>
                     </div>
 
@@ -80,7 +80,7 @@ export default function Layout({ children }) {
                         <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Home</a></Link>
                         <Link href="/events" ><a className="font-semi-bold text-xl hover:opacity-50">Events</a></Link>
                         <Link href="/committee" ><a className="font-semi-bold text-xl hover:opacity-50">Committee</a></Link>
-                        <Link href="/" ><a className="font-semi-bold text-xl hover:opacity-50">Contact Us</a></Link>
+                        <Link href="/contactus" ><a className="font-semi-bold text-xl hover:opacity-50">Contact Us</a></Link>
                     </div>
                 </div>
                 <div className="text-center mt-5 pt-10">
